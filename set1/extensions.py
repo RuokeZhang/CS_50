@@ -1,5 +1,5 @@
-fName=input("File name: ")
-fName.strip()
+name=input("File name: ")
+fName=name.strip()
 if fName.lower().endswith(".jpg"):
     print("image/jpeg")
 elif fName.lower().endswith(".gif"):
